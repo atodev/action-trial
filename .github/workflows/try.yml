@@ -37,12 +37,11 @@ jobs:
           echo
           echo is python installed?
           python --version
-          echo
-          is git installed?
+          echo is git installed?
           git --version
           echo
           echo is docker installed:
-          gocker --version
+          docker --version
           echo
           
           echo Add other actions to build,
